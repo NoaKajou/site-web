@@ -4,12 +4,12 @@ const stylesheet = document.getElementById('stylesheet');
 
 button.addEventListener('click', () => {
   // Vérifie si le style actuel est style1.css
-  if (stylesheet.getAttribute('href') === 'style1.css') {
+  if (stylesheet.getAttribute('href') === 'white.css') {
     // Change vers style2.css
-    stylesheet.setAttribute('href', 'style2.css');
+    stylesheet.setAttribute('href', 'black.css');
   } else {
     // Sinon, revient à style1.css
-    stylesheet.setAttribute('href', 'style1.css');
+    stylesheet.setAttribute('href', 'white.css');
   }
 });
 
