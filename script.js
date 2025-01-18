@@ -30,7 +30,7 @@ styleToggleBtn.addEventListener('click', () => {
   if (currentStyle) {
     currentStyle.setAttribute(
       'href',
-      isAltStyle ? 'styles.css' : 'styles-alt.css'
+      isAltStyle ? 'styles.css' : 'alt.css'
     );
     isAltStyle = !isAltStyle;
   }
