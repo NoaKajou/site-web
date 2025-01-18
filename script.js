@@ -3,6 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const button = document.getElementById('switch-style');
   const stylesheet = document.getElementById('stylesheet');
 
+  // Initialiser avec white.css par défaut
+  if (!stylesheet.getAttribute('href')) {
+    stylesheet.setAttribute('href', 'white.css');
+  }
+
   if (button && stylesheet) {
     button.addEventListener('click', () => {
       // Vérifie si le style actuel est white.css
