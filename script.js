@@ -8,3 +8,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       }
     });
   });
+  const styleLink = document.getElementById('style-link');
+  const switchButton = document.getElementById('switch-style');
+
+  switchButton.addEventListener('click', () => {
+    if (styleLink.getAttribute('href') === 'styles.css') {
+      styleLink.setAttribute('href', 'styles-alt.css');
+    } else {
+      styleLink.setAttribute('href', 'styles.css');
+    }
+  });
