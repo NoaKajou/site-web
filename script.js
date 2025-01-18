@@ -1,9 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Code pour changer dynamiquement la feuille de style
+  // S'assurer que les éléments existent
   const button = document.getElementById('switch-style');
   const stylesheet = document.getElementById('stylesheet');
 
-  // Vérifiez si les éléments existent avant de les utiliser
   if (button && stylesheet) {
     button.addEventListener('click', () => {
       // Vérifie si le style actuel est white.css
@@ -16,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   } else {
-    console.error('Les éléments avec les IDs #switch-style ou #stylesheet n\'ont pas été trouvés.');
+    console.error("Les éléments avec les IDs #switch-style ou #stylesheet n'ont pas été trouvés.");
   }
 
   // Exemple d'interactivité : Défilement fluide vers les sections
