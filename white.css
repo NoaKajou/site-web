@@ -1,81 +1,3 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-header {
-  background-color: #111;
-  color: white;
-  padding: 10px 20px;
-}
-header nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-}
-header nav ul li a {
-  color: white;
-  text-decoration: none;
-  padding: 10px 15px;
-  transition: background-color 0.3s;
-}
-header nav ul li a:hover {
-  background-color: #333;
-  border-radius: 5px;
-}
-.hero {
-  background: url('assets/hero-boxe.jpg') center/cover no-repeat;
-  color: white;
-  text-align: center;
-  padding: 100px 20px;
-}
-.hero h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-.hero .btn {
-  background-color: #e63946;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-.hero .btn:hover {
-  background-color: #a02031;
-}
-section {
-  padding: 60px 20px;
-  text-align: center;
-}
-section h2 {
-  font-size: 2em;
-  margin-bottom: 20px;
-}
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
-}
-.card {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 40px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-#map {
-  width: 100%;
-  height: 300px;
-  background-color: #f0f0f0;
-}
-footer {
-  background-color: #111;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
 /* Styles généraux */
 body {
   font-family: 'Roboto', sans-serif;
@@ -176,6 +98,92 @@ section#histoire h2::after {
   }
 
   .card2 p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Section Techniques de Boxe */
+section#techniques {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+section#techniques h2 {
+  font-size: 2.5rem;
+  color: #34495e;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+}
+
+section#techniques h2::after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 4px;
+  background-color: #e74c3c;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* Grille */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+/* Cartes */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-align: left;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #e67e22;
+  border-bottom: 2px solid #e74c3c;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  section#techniques h2 {
+    font-size: 2rem;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .card h3 {
+    font-size: 1.3rem;
+  }
+
+  .card p {
     font-size: 0.95rem;
   }
 }
