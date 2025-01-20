@@ -76,12 +76,49 @@ footer {
   padding: 20px;
 }
 
+/* Cartes */
 .card2 {
+  background-color: #ffffff;
   border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 50px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.card2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card2 h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #e74c3c;
+}
+
+.card2 p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* Liens et styles spéciaux */
+.card2 p br {
+  margin-bottom: 10px;
+}
+
+.card2 p strong {
+  color: #2c3e50;
+}
+
+.card2 p::before {
+  content: "→ ";
+  color: #e67e22;
+  font-weight: bold;
+}
+
 
 .container {
   display: flex;
@@ -140,4 +177,12 @@ footer {
 .fill {
   height: 100%;
   background-color: #4caf50;
+}
+
+/* Grille */
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
 }
