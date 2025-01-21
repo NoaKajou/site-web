@@ -4,19 +4,19 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #2c3e50; /* Fond sombre */
-  color: #ecf0f1; /* Texte clair */
+  background-color: #0a0a0a;
+  color: #333;
 }
 
 section#histoire {
   padding: 60px 20px;
-  background-color: #34495e; /* Fond sombre */
+  background-color: #000000;
   text-align: center;
 }
 
 section#histoire h2 {
   font-size: 2.5rem;
-  color: #ecf0f1; /* Texte clair */
+  color: #2c3e50;
   margin-bottom: 30px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -29,7 +29,7 @@ section#histoire h2::after {
   display: block;
   width: 50%;
   height: 4px;
-  background-color: #e67e22; /* Couleur claire */
+  background-color: #e67e22;
   margin: 10px auto 0;
   border-radius: 2px;
 }
@@ -45,24 +45,24 @@ section#histoire h2::after {
 
 /* Cartes */
 .card2 {
-  background-color: #34495e; /* Fond sombre */
-  border: 1px solid #555; /* Bordure plus claire */
+  background-color: #000000;
+  border: 1px solid #222222;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
   text-align: left;
 }
 
 .card2:hover {
   transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card2 h3 {
   font-size: 1.5rem;
   margin-bottom: 15px;
-  color: #e74c3c; /* Texte lumineux */
+  color: #e74c3c;
   border-bottom: 2px solid #e67e22;
   display: inline-block;
   padding-bottom: 5px;
@@ -70,13 +70,13 @@ section#histoire h2::after {
 
 .card2 p {
   font-size: 1rem;
-  color: #ecf0f1; /* Texte clair */
+  color: #555;
   line-height: 1.8;
   margin-bottom: 0;
 }
 
 .card2 p strong {
-  color: #e67e22; /* Texte accentué lumineux */
+  color: #2c3e50;
 }
 
 .card2 p br {
@@ -105,13 +105,13 @@ section#histoire h2::after {
 /* Section Techniques de Boxe */
 section#techniques {
   padding: 60px 20px;
-  background-color: #34495e; /* Fond sombre */
+  background-color: #000000;
   text-align: center;
 }
 
 section#techniques h2 {
   font-size: 2.5rem;
-  color: #ecf0f1; /* Texte clair */
+  color: #2c3e50;
   margin-bottom: 30px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -124,7 +124,7 @@ section#techniques h2::after {
   display: block;
   width: 50%;
   height: 4px;
-  background-color: #e67e22; /* Couleur claire */
+  background-color: #e67e22;
   margin: 10px auto 0;
   border-radius: 2px;
 }
@@ -140,24 +140,24 @@ section#techniques h2::after {
 
 /* Cartes */
 .card {
-  background-color: #34495e; /* Fond sombre */
-  border: 1px solid #555; /* Bordure plus claire */
+  background-color: #000000;
+  border: 1px solid #222222;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
   text-align: left;
 }
 
 .card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card h3 {
   font-size: 1.5rem;
   margin-bottom: 15px;
-  color: #e74c3c; /* Texte lumineux */
+  color: #e74c3c;
   border-bottom: 2px solid #e67e22;
   display: inline-block;
   padding-bottom: 5px;
@@ -165,12 +165,12 @@ section#techniques h2::after {
 
 .card p {
   font-size: 1rem;
-  color: #ecf0f1; /* Texte clair */
+  color: #555;
   line-height: 1.8;
 }
 
 .card p strong {
-  color: #e67e22; /* Texte accentué lumineux */
+  color: #2c3e50;
 }
 
 /* Responsive */
@@ -194,9 +194,9 @@ section#techniques h2::after {
 
 /* Header */
 header {
-  background-color: #1a252f; /* Fond sombre */
+  background-color: #34495e;
   padding: 20px;
-  color: #ecf0f1; /* Texte clair */
+  color: #000000;
   text-align: center;
 }
 
@@ -218,22 +218,22 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #ecf0f1; /* Texte clair */
+  color: #000000;
   font-size: 1.1rem;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 nav ul li a:hover {
-  color: #e67e22; /* Couleur lumineuse */
+  color: #e74c3c;
 }
 
 #switch-style {
-  background-color: #e67e22; /* Bouton lumineux */
+  background-color: #e67e22;
   border: none;
   padding: 10px 20px;
   font-size: 1rem;
-  color: white;
+  color: black;
   cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -245,8 +245,8 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-  background-color: #34495e; /* Fond sombre */
-  color: #ecf0f1; /* Texte clair */
+  background-color: #2c3e50;
+  color: #000000;
   padding: 100px 20px;
   text-align: center;
 }
@@ -262,8 +262,8 @@ nav ul li a:hover {
 }
 
 .hero .btn {
-  background-color: #e74c3c; /* Bouton lumineux */
-  color: white;
+  background-color: #e74c3c;
+  color: black;
   padding: 15px 30px;
   text-decoration: none;
   font-size: 1.1rem;
@@ -276,16 +276,43 @@ nav ul li a:hover {
   background-color: #c0392b;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .hero h2 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero .btn {
+    font-size: 1rem;
+  }
+}
+
 /* Section Fiches des boxeurs */
 #fiches {
   padding: 50px 20px;
   text-align: center;
-  background-color: #34495e; /* Fond sombre */
+  background-color: #130f0e;
 }
 
 #fiches h2 {
   font-size: 2.5rem;
-  color: #ecf0f1; /* Texte clair */
+  color: #34495e;
   margin-bottom: 30px;
 }
 
@@ -296,9 +323,9 @@ nav ul li a:hover {
 }
 
 .card-boxer {
-  background-color: #34495e; /* Fond sombre */
+  background-color: #000000;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -306,7 +333,7 @@ nav ul li a:hover {
 
 .card-boxer:hover {
   transform: translateY(-10px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
 }
 
 .card-boxer img {
@@ -319,13 +346,13 @@ nav ul li a:hover {
 
 .card-boxer h2 {
   font-size: 1.8rem;
-  color: #ecf0f1; /* Texte clair */
+  color: #34495e;
   margin-bottom: 10px;
 }
 
 .card-boxer p {
   font-size: 1rem;
-  color: #7f8c8d; /* Texte gris clair */
+  color: #7f8c8d;
   margin-bottom: 20px;
 }
 
@@ -335,19 +362,19 @@ nav ul li a:hover {
 
 .stats p {
   font-weight: bold;
-  color: #ecf0f1; /* Texte clair */
+  color: #34495e;
   margin-bottom: 5px;
 }
 
 .progress-bar {
-  background-color: #2c3e50; /* Fond sombre */
+  background-color: #130f0e;
   border-radius: 5px;
   height: 10px;
   margin-bottom: 10px;
 }
 
 .fill {
-  background-color: #2ecc71; /* Couleur lumineuse */
+  background-color: #2ecc71;
   height: 100%;
   border-radius: 5px;
 }
@@ -357,7 +384,7 @@ nav ul li a:hover {
   margin-top: 10px;
   font-size: 1rem;
   text-decoration: none;
-  color: #3498db; /* Lien bleu */
+  color: #3498db;
   border: 2px solid #3498db;
   padding: 8px 15px;
   border-radius: 5px;
@@ -366,14 +393,14 @@ nav ul li a:hover {
 
 .card-boxer a:hover {
   background-color: #3498db;
-  color: #ffffff;
+  color: #000000;
 }
 
 /* Section Contact */
 #contact {
   padding: 50px 20px;
-  background-color: #34495e; /* Fond sombre */
-  color: white;
+  background-color: #34495e;
+  color: black;
   text-align: center;
 }
 
@@ -384,10 +411,10 @@ nav ul li a:hover {
 
 /* Formulaire d'inscription */
 form {
-  background-color: #34495e; /* Fond sombre */
+  background-color: #000000;
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 500px; /* Limite la largeur du formulaire */
   margin: 0 auto;
@@ -401,7 +428,7 @@ input, textarea {
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 5px;
-  border: 1px solid #555; /* Bordure plus claire */
+  border: 1px solid #333333;
   font-size: 1rem;
   box-sizing: border-box; /* Inclut padding et bordure dans la largeur */
 }
@@ -421,21 +448,21 @@ form label {
   font-size: 1.1rem;
   margin-bottom: 10px;
   display: block;
-  color: #ecf0f1; /* Texte clair */
+  color: #34495e;
 }
 
 form input,
 form textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #555; /* Bordure plus claire */
+  border: 1px solid #222222;
   border-radius: 5px;
   margin-bottom: 20px;
 }
 
 form button {
-  background-color: #e74c3c; /* Bouton lumineux */
-  color: white;
+  background-color: #e74c3c;
+  color: black;
   padding: 15px 20px;
   border: none;
   border-radius: 5px;
