@@ -337,9 +337,10 @@ nav ul li a:hover {
 }
 
 .card-boxer img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+  width: 150px; /* Définir une largeur fixe pour les images */
+  height: 150px; /* Hauteur égale à la largeur pour garder la forme ronde */
+  object-fit: cover; /* Assure que l'image garde son ratio sans être déformée */
+  border-radius: 50%; /* Transforme l'image en cercle */
   margin-bottom: 15px;
 }
 
