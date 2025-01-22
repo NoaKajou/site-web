@@ -399,7 +399,7 @@ nav ul li a:hover {
 /* Section Contact */
 #contact {
   padding: 50px 20px;
-  background-color: #1c252d; /* Gris très foncé */
+  background-color: #2c3e50; /* Gris foncé */
   color: #ecf0f1; /* Texte clair */
   text-align: center;
 }
@@ -411,7 +411,7 @@ nav ul li a:hover {
 
 /* Formulaire d'inscription */
 form {
-  background-color: #2c3e50; /* Gris foncé */
+  background-color: #34495e; /* Gris foncé */
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
@@ -429,7 +429,7 @@ input, textarea {
   margin-bottom: 20px;
   border-radius: 5px;
   border: 1px solid #7f8c8d; /* Gris pour les bordures */
-  background-color: #34495e; /* Gris foncé pour le fond des champs */
+  background-color: #2c3e50; /* Gris foncé pour le fond des champs */
   color: #ecf0f1; /* Texte clair dans les champs */
   font-size: 1rem;
   box-sizing: border-box; /* Inclut padding et bordure dans la largeur */
@@ -484,7 +484,7 @@ table {
   font-family: Arial, sans-serif;
   font-size: 16px;
   text-align: left;
-  background-color: #1c252d; /* Gris très foncé pour le fond du tableau */
+  background-color: #2c3e50; /* Gris foncé pour le fond du tableau */
 }
 
 th, td {
@@ -493,12 +493,12 @@ th, td {
 }
 
 th {
-  background-color: #2c3e50; /* Gris foncé pour les en-têtes */
+  background-color: #34495e; /* Gris foncé pour les en-têtes */
   color: #ecf0f1; /* Texte clair */
 }
 
 tr:nth-child(even) {
-  background-color: #34495e; /* Gris plus clair pour les lignes paires */
+  background-color: #2c3e50; /* Gris foncé pour les lignes paires */
 }
 
 tr:hover {
