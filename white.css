@@ -399,7 +399,7 @@ nav ul li a:hover {
 /* Section Contact */
 #contact {
   padding: 50px 20px;
-  background-color: #34495e;
+  background-color: #ffffff;
   color: white;
   text-align: center;
 }
@@ -411,7 +411,7 @@ nav ul li a:hover {
 
 /* Formulaire d'inscription */
 form {
-  background-color: #ffffff;
+  background-color: #34495e;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -507,3 +507,6 @@ td {
   color: #34495e; /* Texte des cellules */
 }
 
+#tableau {
+  background-color: white;
+}
