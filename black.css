@@ -32,6 +32,10 @@ section#histoire h2 {
   display: inline-block;
 }
 
+.phrase {
+  color: #ffa726;
+}
+
 section#histoire h2::after {
   content: '';
   display: block;
