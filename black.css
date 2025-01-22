@@ -520,3 +520,7 @@ tr:hover {
 td {
   color: #ecf0f1; /* Texte clair pour les cellules */
 }
+
+footer {
+  color:  white;
+}
