@@ -7,6 +7,9 @@ body {
   background-color: #1e1e1e;
   color: #1e1e1e;
 }
+main {
+  background-color: #1e1e1e;
+}
 
 section#histoire {
   padding: 60px 20px;
