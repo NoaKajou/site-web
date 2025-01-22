@@ -4,13 +4,13 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #0a0a0a;
-  color: #333;
+  background-color: #222121;
+  color: #494343;
 }
 
 section#histoire {
   padding: 60px 20px;
-  background-color: #000000;
+  background-color: #221f1f;
   text-align: center;
 }
 
@@ -45,8 +45,8 @@ section#histoire h2::after {
 
 /* Cartes */
 .card2 {
-  background-color: #000000;
-  border: 1px solid #222222;
+  background-color: #1f1717;
+  border: 1px solid #2c2a2a;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
