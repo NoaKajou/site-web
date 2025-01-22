@@ -528,3 +528,8 @@ td {
 footer {
   color:  white;
 }
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+}
