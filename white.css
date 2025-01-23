@@ -510,3 +510,7 @@ td {
 #tableau {
   background-color: white;
 }
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
